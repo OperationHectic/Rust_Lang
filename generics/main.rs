@@ -9,5 +9,12 @@ fn main()
     //Print the generic type data
     gen.print_data();
 
-    //println!("Doubled value is {}", double_val(3))
+    //Print a value multipled by 2
+    println!("Doubled value is {}", double_val(3));
+
+    //Print a value squared
+    println!("Squared value is {}", square::<u64>(3));
+
+    //Print a value cubed
+    println!("Cubed value is {}", cube(3));
 }
